@@ -55,7 +55,7 @@ Resources:
     Properties:
       ClusterID: !Ref KubeClusterName
       Namespace: !Ref Namespace
-      Chart: stable/prometheus
+      Chart: prometheus-community/prometheus
       Name: prometheus
       ValueOverrideURL: !If [SupplyOverrides, !Ref OverrideValues, !Ref 'AWS::NoValue']
       Values:
