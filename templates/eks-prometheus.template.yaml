@@ -48,7 +48,6 @@ Resources:
   PrometheusHelmChart:
     Type: AWSQS::Kubernetes::Helm
     DependsOn: PrometheusNamespace
-    Metadata: { cfn-lint: { config: { ignore_checks: [ E3012 ] } } }
     Properties:
       ClusterID: !Ref KubeClusterName
       Namespace: !Ref Namespace
