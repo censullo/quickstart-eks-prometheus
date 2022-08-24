@@ -55,6 +55,7 @@ Resources:
     Properties:
       ClusterID: !Ref KubeClusterName
       Namespace: !Ref Namespace
+      Repository: https://prometheus-community.github.io/helm-charts
       Chart: prometheus-community/prometheus
       Name: prometheus
       ValueOverrideURL: !If [SupplyOverrides, !Ref OverrideValues, !Ref 'AWS::NoValue']
