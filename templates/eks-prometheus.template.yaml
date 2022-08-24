@@ -2,9 +2,6 @@ AWSTemplateFormatVersion: "2010-09-09"
 Description: Deploys the prometheus Helm chart into an existing Kubernetes cluster (qs-1qde66ffn).
 Metadata:
   LintSpellExclude:
-    - Kubernetes
-    - namespace
-    - Namespace
     - Prometheus
   QuickStartDocumentation:
     EntrypointName: Launch into an existing Amazon EKS cluster
