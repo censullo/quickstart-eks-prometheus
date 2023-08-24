@@ -1,17 +1,25 @@
-:partner-solution-project-name: partner-solution-repo-name
+:partner-solution-project-name: quickstart-eks-prometheus
 :partner-solution-github-org: aws-quickstart
-:partner-product-name: Full Product Name
-:partner-product-short-name: Product Name
-:partner-company-name: Example Company Name, Ltd.
-:doc-month: January
-:doc-year: 2023
-:partner-contributors: John Smith, {partner-company-name}
+:partner-product-name: Prometheus for Amazon EKS
+:partner-product-short-name: Prometheus
+//:partner-company-name: Example Company Name, Ltd.
+:doc-month: April
+:doc-year: 2021
+//:partner-contributors: John Smith, {partner-company-name}
 // :other-contributors: Akua Mansa, Trek10
-:aws-contributors: Janine Singh, AWS IoT Partner team
-:aws-ia-contributors: Toni Jones, AWS Integration & Automation team
-:deployment_time: 15 minutes
+//:aws-contributors: Janine Singh, AWS IoT Partner team
+:aws-ia-contributors: Sumit Joshi and Jay McConnell, AWS Integration & Automation team
+:deployment_time: 45-60 minutes
 :default_deployment_region: us-east-1
 // :private_repo:
-
+:eks_addin:
+:disable_regions:
+:disable_licenses:
+:launch_new_vpc: https://fwd.aws/EKAg7
+:launch_existing_vpc: https://fwd.aws/9DYrk
+:launch_existing_cluster: https://fwd.aws/a3pkr
+:template_new_vpc: https://fwd.aws/DgqPB
+:template_existing_vpc: https://fwd.aws/mbD5g
+:template_existing_cluster: https://fwd.aws/kqV5J
 
 // For instructions on creating this deployment guide, refer to "Build your AWS Partner Solution documentation" (https://aws-ia-us-west-2.s3.us-west-2.amazonaws.com/docs/content/index.html#/).
